@@ -1,0 +1,58 @@
+.schedule-container {
+  padding: 20px;
+}
+
+.rbc-event {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.rbc-time-slot {
+  border-top: 1px solid #e6e6e6;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #155ab6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0;
+}
+
+form input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+form .datepicker {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #155ab6;
+}

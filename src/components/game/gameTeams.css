@@ -1,0 +1,61 @@
+.teams-page {
+  margin-top: 20px;
+}
+
+.game-info {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.member-image {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.gameTeamsTitle {
+  margin-bottom: 10px;
+}
+
+.vs-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid #000; /* Vertical line separator */
+  border-right: 2px solid #000; /* Vertical line separator */
+  padding: 0 20px; /* Adjust spacing to make the lines closer to "VS" */
+}
+
+.team-a {
+  background-color: #11a4b8; /* Light red background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-b {
+  background-color: #d4edda; /* Light green background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.roles {
+  margin-top: 20px;
+}
+
+.roles p {
+  font-weight: bold;
+}

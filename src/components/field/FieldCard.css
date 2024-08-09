@@ -1,0 +1,74 @@
+.field-card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  height: auto;
+}
+
+.field-card:hover {
+  transform: scale(1.02);
+}
+
+.field-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.field-image-container {
+  flex: 1;
+}
+
+.field-info-container {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.field-image {
+  margin-top: 60px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.field-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.field-price {
+  font-size: 1.2rem;
+  color: #28a745;
+}
+
+.field-description,
+.field-location,
+.field-type,
+.field-capacity,
+.field-rating,
+.field-contact,
+.field-clause {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.field-rating .star-icon {
+  color: #ffc107;
+}
+
+.field-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rent-button,
+.calendar-button {
+  margin-right: 10px;
+  width: auto;
+  flex: 1;
+}

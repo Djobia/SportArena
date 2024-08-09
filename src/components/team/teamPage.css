@@ -1,0 +1,72 @@
+.team-image-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-bottom: 20px; /* Optional: space between image and other elements */
+}
+
+.team-image {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image maintains its aspect ratio */
+  border-radius: 50%; /* To make the image circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the image */
+  border: 2px solid #007bff; /* Add border to the image */
+}
+
+.team-name {
+  text-align: center;
+}
+
+.teamPage {
+  text-align: center;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-rules {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px; /* Add some padding */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.group-rules h2 {
+  text-align: center;
+}
+
+.group-rules ul {
+  list-style-type: disc; /* Use default bullet points */
+  padding-left: 20px; /* Indent list for better readability */
+}
+
+.group-rules li {
+  margin-bottom: 10px;
+}
+
+.scrollable-events {
+  height: 400px; /* Adjust height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border-right: 1px solid #ddd; /* Add a border for separation */
+  padding-right: 10px; /* Add some padding for better readability */
+}
+
+.scrollable-events h2 {
+  text-align: center;
+}
+
+.scrollable-events ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.post-image {
+  width: 250px; /* Adjust the width as needed */
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image maintains its aspect ratio */
+  margin-bottom: 10px; /* Add some space below the image */
+  border-radius: 10px;
+}

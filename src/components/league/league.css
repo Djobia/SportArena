@@ -1,0 +1,40 @@
+.league-container {
+  padding: 20px;
+}
+
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.rankings-table th,
+.schedule-table th {
+  text-align: star;
+}
+
+.rankings-table td,
+.schedule-table td {
+  text-align: start;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.rankings-table th,
+.rankings-table td,
+.schedule-table th,
+.schedule-table td {
+  white-space: nowrap;
+}
+
+.rankings-table td img,
+.schedule-table td img {
+  display: inline-block;
+  vertical-align: middle;
+}
