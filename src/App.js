@@ -8,9 +8,20 @@ import GamePanelPage from "../src/components/gamesPanel/gamesPanel.js";
 import Rental from "./components/rental/rental.js";
 import Schedule from "./components/schedule/Schedule.js";
 import League from "./components/league/league.js";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import Home from "../src/components/home/home.js";
 
 function App() {
-  return <League></League>;
+  //return <Home></Home>;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/games" element={<GamePanelPage />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

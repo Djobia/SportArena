@@ -3,7 +3,7 @@ import { Button, Col, Form, InputGroup, Row } from "react-bootstrap";
 import "./playerPage.css";
 import Image from "react-bootstrap/Image";
 import ronaldinho from "../../assets/ronaldinho.jpg";
-
+//jgfdf
 function PlayerPage() {
   const [validated, setValidated] = useState(false);
 
@@ -19,6 +19,7 @@ function PlayerPage() {
 
   return (
     <div className="form-container">
+      <h1>Test</h1>
       <h2 className="form-title">⚽️ Player Profile Form 🥅</h2>
       <div className="profile-image-container">
         <Image src={ronaldinho} roundedCircle className="profile-image" />
